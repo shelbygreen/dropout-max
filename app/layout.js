@@ -4,9 +4,36 @@ import { WallProvider } from "@/components/WallProvider";
 import AddNoteModal from "@/components/AddNoteModal";
 
 export const metadata = {
-  title: "Drop out, Max.",
+  metadataBase: new URL("https://dropoutmax.com"), // replace with your actual domain
+  title: {
+    default: "Drop out, Max.",
+    template: "%s | Drop out, Max.",
+  },
   description:
-    "An open letter calling on Max Herrle to withdraw from the Tallahassee City Commission race, and a wall of notes from the community."
+    "An open letter calling on Max Herrle to withdraw from the Tallahassee City Commission race.",
+  openGraph: {
+    title: "Drop out, Max.",
+    description:
+      "An open letter calling on Max Herrle to withdraw from the Tallahassee City Commission race.",
+    url: "https://dropoutmax.com",
+    siteName: "Drop out, Max.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Drop out, Max.",
+    description:
+      "An open letter calling on Max Herrle to withdraw from the Tallahassee City Commission race.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }) {

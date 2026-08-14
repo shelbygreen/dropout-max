@@ -1,7 +1,10 @@
 import { heading } from "@/components/theme";
 import NotesWall from "@/components/NotesWall";
 
-export const metadata = { title: "Notes to Max \u2014 Drop out, Max." };
+export const metadata = {
+  title: "Community Notes",
+  description: "Read what community members are saying about Max Herrle.",
+};
 
 export default function NotesPage() {
   return (
