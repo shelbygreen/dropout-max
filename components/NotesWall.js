@@ -69,7 +69,7 @@ export default function NotesWall() {
                 }}
               >
                 <p style={{ margin: 0, fontStyle: "italic", fontSize: "clamp(13px,3.4vw,15px)", lineHeight: 1.15, color: note.ink, textWrap: "pretty" }}>
-                  I added my name because
+                  I signed because
                 </p>
                 <p style={{ margin: 0, fontSize: "clamp(15px,3.8vw,17px)", lineHeight: 1.2, color: note.ink, textWrap: "pretty" }}>
                   {note.story}
