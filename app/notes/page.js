@@ -40,11 +40,11 @@ export default function NotesPage() {
               textWrap: "pretty"
             }}
           >
-            We invite the Tallahassee community to share their stories, experiences, and more about Max Herrle, the
-            candidate accused of sexual assault, manipulation, and embezzlement.
+            We invite the Tallahassee community to share their stories, experiences, and more regarding Max Herrle, the
+            Tallahassee City Commission candidate accused of sexual assault and manipulation.
             <br />
             <br />
-            Read our open letter detailing why he must drop out of the Tallahassee City Commission race and apologize to
+            Read our <a href="/">open letter</a> detailing why he must drop out of the race and apologize to
             those he&apos;s harmed.
           </h2>
         </div>
