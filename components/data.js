@@ -1,18 +1,18 @@
-export const SEED_SIGNERS = [
-  { label: "S.G." },
-  { label: "T.K." },
-  { label: "T.C." },
-  { label: "M.D.H." },
-  { label: "B.G." },
-  { label: "L.A." }
-];
+// export const SEED_SIGNERS = [
+//   { label: "S.G." },
+//   { label: "T.K." },
+//   { label: "T.C." },
+//   { label: "M.D.H." },
+//   { label: "B.G." },
+//   { label: "L.A." }
+// ];
 
-export const SEED_NOTES = [
-  { story: "Tallahassee deserves commissioners who take accountability seriously. That's why I'm signing.", name: "A.R." },
-  { story: "I've watched young women in local politics get talked over and dismissed for years. Enough.", name: "Anon." },
-  { story: "Leadership means answering hard questions, not waiting for them to go away.", name: "D.M." },
-  { story: "I've organized in this city for a decade. Silence from a candidate tells you plenty.", name: "Y.K." }
-];
+// export const SEED_NOTES = [
+//   { story: "Tallahassee deserves", name: "A.R." },
+//   { story: "I've watched young women in local politics get talked over and dismissed for years. Enough.", name: "Anon." },
+//   { story: "Leadership means answering hard questions, not waiting for them to go away.", name: "D.M." },
+//   { story: "I've organized in this city for a decade. Silence from a candidate tells you plenty.", name: "Y.K." }
+// ];
 
 export const DM_SCREENSHOTS = [
   { src: "/img_2908_redacted.jpeg", alt: "Redacted direct message about Max Herrle" },
