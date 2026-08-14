@@ -27,7 +27,7 @@ export default function OpenLetterPage() {
           </p>
           <p style={body}>
             Tallahassee deserves a leader committed to curbing abuse and delivering justice, not a predator who has
-            allegedly:
+            <a href="/records"> allegedly</a>:
           </p>
           <div style={body}>
             <ul>

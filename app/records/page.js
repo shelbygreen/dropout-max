@@ -2,7 +2,10 @@ import { body, column, heading, pageSection, quote, rule, subhead } from "@/comp
 import Screenshot from "@/components/Screenshot";
 import { DM_SCREENSHOTS, DM_SCREENSHOTS_SMALL, HISTORY } from "@/components/data";
 
-export const metadata = { title: "Other Records \u2014 Drop out, Max." };
+export const metadata = {
+  title: "Records",
+  description: "More information about Max Herrle and his sexual assault allegations.",
+};
 
 const grid = (cols) => ({
   display: "grid",
@@ -25,7 +28,7 @@ export default function RecordsPage() {
 
         <h2 style={subhead}>From Direct Messages</h2>
         <p style={body}>
-          Below are screenshots of messages detailing first- or second-hand interactions with Max Herrle. Only
+          Below are screenshots of messages sent to us detailing first- or second-hand interactions with Max Herrle. Only
           personally-identifying information has been redacted to preserve anonymity.
         </p>
 
