@@ -12,7 +12,7 @@ App Router export of the design. Four routes, shared note state.
 
 - app/page.js — Open Letter (letter copy, signers, "Add your initials")
 - app/notes/page.js — Notes to Max (4 notes per page, arrow-paged snap-scroll wall)
-- app/records/page.js — Other Records (DM screenshots, community-leader posts, electioneering timeline)
+- app/records/page.js — Records (DM screenshots, community-leader posts, electioneering timeline)
 - app/info/page.js — Info (who made it, why, contact)
 - app/layout.js — fonts, global CSS, nav, add-note modal, WallProvider
 - components/WallProvider.js — notes + signers state, localStorage persistence, redirect to /notes after posting

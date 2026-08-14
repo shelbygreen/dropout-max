@@ -30,8 +30,9 @@ export default function AddNoteModal() {
 
   if (!adding) return null;
 
-  function post() {
-    if (addNote({ story, name })) {
+  async function post() {
+    const success = await addNote({ story, name });
+    if (success) {
       setName("");
       setStory("");
     }

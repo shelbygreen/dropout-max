@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const items = [
   { href: "/", label: "Open Letter" },
   { href: "/notes", label: "Notes to Max" },
-  { href: "/records", label: "Other Records" },
+  { href: "/records", label: "Records" },
   { href: "/info", label: "Info" }
 ];
 
@@ -23,7 +23,7 @@ export default function Nav() {
         padding: "clamp(18px,4vw,26px) 20px",
         fontFamily: "Helvetica, 'Helvetica Neue', Arial, sans-serif",
         fontWeight: 300,
-        fontSize: "clamp(15px,4vw,22px)",
+        fontSize: "clamp(15px,4vw,18px)",
         letterSpacing: "0.01em"
       }}
     >
