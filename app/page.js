@@ -73,7 +73,7 @@ export default function OpenLetterPage() {
         <AddButton
           style={{ borderRadius: 8, padding: "14px clamp(22px,6vw,28px)", fontSize: "clamp(19px,5vw,24px)", letterSpacing: "0.01em" }}
         >
-          Add your initials
+          Sign the letter
         </AddButton>
       </section>
     </>
