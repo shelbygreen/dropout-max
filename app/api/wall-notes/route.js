@@ -28,7 +28,7 @@ export async function GET() {
 
 export async function POST(req) {
   const body = await req.json()
-  const { initials, story } = body
+  const { initials, story, contact, number } = body
 
   const response = await fetch(
     `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE_ID}/${process.env.AIRTABLE_TABLE_NAME}`,
@@ -42,6 +42,8 @@ export async function POST(req) {
         fields: {
           Initials: initials,
           Story: story,
+          Contact: !!contact,
+          Number: contact ? number : "",
         },
       }),
     }
@@ -50,7 +52,7 @@ export async function POST(req) {
   const result = await response.json()
 
   if (!response.ok) {
-    console.error('Airtable error:', result)
+    console.error("Airtable error:", result)
     return NextResponse.json({ data: 'error', detail: result }, { status: 500 })
   }
 

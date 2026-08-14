@@ -46,11 +46,6 @@ export default function NotesWall() {
             key={p}
             className="notes-page"
             style={{
-              flex: "0 0 100%",
-              display: "grid",
-              gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
-              gridTemplateRows: "repeat(2, minmax(0, 1fr))",
-              gap: "clamp(12px,3vw,18px) clamp(10px,3vw,16px)",
               scrollSnapAlign: "start"
             }}
           >
@@ -60,12 +55,12 @@ export default function NotesWall() {
                 style={{
                   background: note.paper,
                   borderRadius: 10,
-                  padding: "16px 14px",
+                  padding: "24px 20px",
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
                   justifyContent: "center",
-                  gap: 8,
+                  gap: 10,
                   textAlign: "center",
                   minHeight: 180,
                   boxShadow: "0 14px 26px -18px rgba(28,26,20,0.42)",
