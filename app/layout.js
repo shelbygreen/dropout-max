@@ -7,7 +7,7 @@ export const metadata = {
   metadataBase: new URL("https://dropoutmax.com"), // replace with your actual domain
   title: {
     default: "Drop out, Max.",
-    template: "%s | Drop out, Max.",
+    template: "%s  Drop out, Max.",
   },
   description:
     "An open letter calling on Max Herrle to withdraw from the Tallahassee City Commission race.",

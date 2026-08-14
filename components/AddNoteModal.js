@@ -27,14 +27,17 @@ export default function AddNoteModal() {
   const { adding, setAdding, addNote } = useWall();
   const [name, setName] = useState("");
   const [story, setStory] = useState("");
+  const [wantsContact, setWantsContact] = useState(false);
+  const [number, setNumber] = useState("");
 
   if (!adding) return null;
 
-  async function post() {
-    const success = await addNote({ story, name });
-    if (success) {
+  function post() {
+    if (addNote({ story, name, contact: wantsContact, number: wantsContact ? number : "" })) {
       setName("");
       setStory("");
+      setWantsContact(false);
+      setNumber("");
     }
   }
 
@@ -94,6 +97,29 @@ export default function AddNoteModal() {
             style={{ ...field, color: "#8a2f1d" }}
           />
         </label>
+
+        <label style={{ display: "flex", alignItems: "center", gap: 10, cursor: "pointer" }}>
+          <input
+            type="checkbox"
+            checked={wantsContact}
+            onChange={(e) => setWantsContact(e.target.checked)}
+            style={{ width: 16, height: 16, accentColor: "#8a2f1d", cursor: "pointer" }}
+          />
+          <span style={label}>Okay to contact me</span>
+        </label>
+
+        {wantsContact && (
+          <label style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            <span style={label}>Phone number:</span>
+            <input
+              type="tel"
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
+              placeholder="(850) 555-0123"
+              style={{ ...field, color: "#1c1a14" }}
+            />
+          </label>
+        )}
 
         <div style={{ display: "flex", alignItems: "center", gap: 18, marginTop: 6 }}>
           <button
