@@ -51,43 +51,56 @@ export default function NotesWall() {
           >
             {page.map((note, i) => (
               <article
-                key={p + "-" + i}
-                style={{
-                  background: note.paper,
-                  borderRadius: 10,
-                  padding: "24px 20px",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: 10,
-                  textAlign: "center",
-                  minHeight: 180,
-                  boxShadow: "0 14px 26px -18px rgba(28,26,20,0.42)",
-                  transform: "rotate(" + note.tilt + ")",
-                  animation: "riseIn 320ms ease both"
-                }}
-              >
-                <p style={{ margin: 0, fontStyle: "italic", fontSize: "clamp(13px,3.4vw,15px)", lineHeight: 1.15, color: note.ink, textWrap: "pretty" }}>
-                  I signed because
-                </p>
-                <p style={{ margin: 0, fontSize: "clamp(15px,3.8vw,17px)", lineHeight: 1.2, color: note.ink, textWrap: "pretty" }}>
-                  {note.story}
-                </p>
-                <p
-                  style={{
-                    margin: "2px 0 0",
-                    fontFamily: "Helvetica, 'Helvetica Neue', Arial, sans-serif",
-                    fontWeight: 300,
-                    fontSize: 12,
-                    lineHeight: 1.35,
-                    color: note.ink,
-                    opacity: 0.85
-                  }}
-                >
-                  {note.name}
-                </p>
-              </article>
+  key={p + "-" + i}
+  style={{
+    background: note.paper,
+    borderRadius: 10,
+    padding: "24px 20px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 10,
+    textAlign: "center",
+    height: 350,
+    boxShadow: "0 14px 26px -18px rgba(28,26,20,0.42)",
+    transform: "rotate(" + note.tilt + ")",
+    animation: "riseIn 320ms ease both"
+  }}
+>
+  <p style={{ margin: 0, fontStyle: "italic", fontSize: "clamp(13px,3.4vw,15px)", lineHeight: 1.15, color: note.ink, textWrap: "pretty" }}>
+    I signed because
+  </p>
+
+  <div
+    // className="note-scroll"
+    // style={{
+    //   "--scroll-color": note.ink,
+    //   overflowY: "auto",
+    //   width: "100%",
+    //   flex: 1,
+    //   minHeight: 0
+    // }}
+  >
+    <p style={{ margin: 0, fontSize: "clamp(15px,3.8vw,17px)", lineHeight: 1.2, color: note.ink, textWrap: "pretty" }}>
+      {note.story}
+    </p>
+  </div>
+
+  <p
+    style={{
+      margin: "2px 0 0",
+      fontFamily: "Helvetica, 'Helvetica Neue', Arial, sans-serif",
+      fontWeight: 300,
+      fontSize: 12,
+      lineHeight: 1.35,
+      color: note.ink,
+      opacity: 0.85
+    }}
+  >
+    {note.name}
+  </p>
+</article>
             ))}
           </div>
         ))}

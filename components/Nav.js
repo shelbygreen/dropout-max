@@ -7,7 +7,8 @@ const items = [
   { href: "/", label: "Open Letter" },
   { href: "/notes", label: "Notes to Max" },
   { href: "/records", label: "Records" },
-  { href: "/info", label: "Info" }
+  { href: "/info", label: "Info" },
+  { href: "/help", label: "Help" }
 ];
 
 export default function Nav() {

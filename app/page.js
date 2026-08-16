@@ -22,6 +22,9 @@ export default function OpenLetterPage() {
 
         <div style={column}>
           <p style={body}>
+            August 14, 2026
+          </p>
+          <p style={body}>
             The mounting allegations of sexual assault and manipulation make you unfit to hold public office. A public
             servant&rsquo;s first duty is to protect the people. You can&rsquo;t protect a community you have preyed upon.
           </p>
