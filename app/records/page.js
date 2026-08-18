@@ -61,7 +61,26 @@ export default function RecordsPage() {
 
         <hr style={rule} />
 
-        <h2 style={subhead}>From Community Leaders</h2>
+        <h2 style={subhead}>From Community Leaders and former Max affiliates</h2>
+        <p style={body}>
+          Max's childhood friend, Daniel Moran, called Max "predatory" and "manipulative," and said he believes the women coming forward.
+        </p>
+        <div style={{ maxWidth: "320px", margin: "0 auto" }}>
+          <Screenshot src="/daniel-1.jpeg" alt="Screenshot of message about Max Herrle (1)" aspect="4 / 3" style={{
+              borderRadius: "8px",
+              boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+            }}/>
+        </div>
+        <div style={grid(2)}>
+          <Screenshot src="/daniel-2.jpeg" alt="Screenshot of message about Max Herrle (2)" aspect="16 / 15" style={{
+            borderRadius: "8px",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+          }}/>
+          <Screenshot src="/daniel-3.jpeg" alt="Screenshot of message about Max Herrle (3)" aspect="16 / 15" style={{
+            borderRadius: "8px",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
+          }}/>
+        </div>
         <p style={body}>
           Author Jeff VanderMeer{" "}
           <a
