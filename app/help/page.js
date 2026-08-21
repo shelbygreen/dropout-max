@@ -18,13 +18,11 @@ export default function RecordsPage() {
           <a href="mailto:tlhresident@gmail.com">tlhresident@gmail.com</a>.
         </p>
 
-        <h2 style={subhead}>1. Share the Open Letter with Max's Affiliates and Ask for Their Comment</h2>
+        <h2 style={subhead}>1. Share the Open Letter with Max Herrle's Affiliates and Ask for Their Comment</h2>
 
         <h2 style={subhead}>2. Help us plan an upcoming community meeting/rally</h2>
 
-        <h2 style={subhead}>3. Hand-deliver the letter to Max's Campaign Office</h2>
-
-        <h2 style={subhead}>4. Stand at the polls on Election Day, passing out flyers about Max's sordid history</h2>
+        <h2 style={subhead}>3. Help us collect apology texts/messages of Max Herrle admitting guilt</h2>
 
     
       </div>
