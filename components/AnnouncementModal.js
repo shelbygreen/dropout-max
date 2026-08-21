@@ -58,12 +58,17 @@ export default function AnnouncementModal() {
         </h2>
 
         <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
-          We're collecting them to prove that we're not liars. Send it to tlhresident@gmail.com. <br/> <br/> Here's one he sent to his victim, Lauren, before he announced his run for Tallahassee City Commission:
+          Here's one he sent to his victim, Lauren, before he announced his run for Tallahassee City Commission:
+          <br/><br/>
         </p>
-        <Screenshot src="/Pre-Campaign-Apology-Text-1.png" aspect="4 / 3"/>
+        <Screenshot src="/Pre-Campaign-Apology-Text-1.png" aspect="auto"/>
+        <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
+           <br/>
+            We're collecting them to prove the deniers wrong. Send it to tlhresident@gmail.com.
+        </p>
 
         <button type="button" className="ghostBtn" onClick={close} style={{ marginTop: 20, padding: "10px 24px", borderRadius: 999, fontSize: 16 }}>
-          Got it!
+          🫡
         </button>
       </div>
     </div>

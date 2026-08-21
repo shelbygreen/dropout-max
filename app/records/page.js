@@ -28,8 +28,8 @@ export default function RecordsPage() {
 
         <h2 style={subhead}>From Max Herrle, himself</h2>
         <p style={body}>To Lauren. Sent on August 26, 2025 via Instagram:
-        <Screenshot src="/Pre-Campaign-Apology-Text-1.png" aspect="4 / 3"/>
         </p>
+        <Screenshot src="/Pre-Campaign-Apology-Text-1.png" aspect="auto"/>
         
 
         <h2 style={subhead}>From Direct Messages</h2>
