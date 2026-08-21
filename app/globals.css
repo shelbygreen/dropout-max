@@ -6,6 +6,7 @@ a:hover { color: #8a2f1d; border-color: #8a2f1d; }
 .scroller { scrollbar-width: none; }
 .scroller::-webkit-scrollbar { height: 0; }
 @keyframes riseIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 .navLink { background: none; border: none; padding: 0; cursor: pointer; font: inherit; }
 .navLink:hover { color: #8a2f1d; }
 .ghostBtn { background: transparent; color: #1c1a14; border: 1px solid #1c1a14; font-family: 'EB Garamond', Georgia, serif; line-height: 1; cursor: pointer; transition: background 160ms, color 160ms; }

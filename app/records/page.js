@@ -26,6 +26,12 @@ export default function RecordsPage() {
           <a href="mailto:tlhresident@gmail.com">tlhresident@gmail.com</a>.
         </p>
 
+        <h2 style={subhead}>From Max Herrle, himself</h2>
+        <p style={body}>To Lauren. Sent on August 26, 2025 via Instagram:
+        </p>
+        <Screenshot src="/Pre-Campaign-Apology-Text-1.png" aspect="auto"/>
+        
+
         <h2 style={subhead}>From Direct Messages</h2>
         <p style={body}>
           Below are screenshots of messages sent to us detailing first- or second-hand interactions with Max Herrle. Only

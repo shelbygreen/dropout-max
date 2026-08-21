@@ -1,8 +1,27 @@
 export default function Screenshot({ src, alt, aspect = "3 / 4" }) {
+  const isAuto = aspect === "auto";
+
   return (
-    <div style={{ position: "relative", width: "100%", aspectRatio: aspect, borderRadius: 8, boxShadow: "0 2px 8px rgba(0,0,0,0.15)"}}>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        aspectRatio: isAuto ? undefined : aspect,
+        borderRadius: 8,
+        boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+        overflow: "hidden"
+      }}
+    >
       {src ? (
-        <img src={src} alt={alt || ""} style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+        <img
+          src={src}
+          alt={alt || ""}
+          style={
+            isAuto
+              ? { width: "100%", height: "auto", display: "block" }
+              : { width: "100%", height: "100%", objectFit: "contain", display: "block" }
+          }
+        />
       ) : (
         <div
           style={{

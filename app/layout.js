@@ -2,6 +2,8 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import { WallProvider } from "@/components/WallProvider";
 import AddNoteModal from "@/components/AddNoteModal";
+import AnnouncementModal from "@/components/AnnouncementModal";
+
 
 export const metadata = {
   metadataBase: new URL("https://dropoutmax.com"), // replace with your actual domain
@@ -48,6 +50,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <AnnouncementModal />
         <WallProvider>
           <div style={{ minHeight: "100vh", background: "#efeddb" }}>
             <Nav />

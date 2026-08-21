@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const url = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE_ID}/${process.env.AIRTABLE_TABLE_NAME}?sort[0][field]=Created&sort[0][direction]=desc`
+  const url = `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE_ID}/${process.env.AIRTABLE_TABLE_NAME}?sort[0][field]=Position&sort[0][direction]=asc&sort[1][field]=Created&sort[1][direction]=desc`
 
   const response = await fetch(url, {
     headers: {
