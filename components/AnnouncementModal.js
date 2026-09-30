@@ -58,7 +58,7 @@ export default function AnnouncementModal() {
         </h2>
 
         <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
-          Want to vend or table? Email: tlhresident.com. Help by joining the planning group on Signal. Instructions: https://www.dropoutmax.com/help
+          Want to vend or table? Email: tlhresident@gmail.com. Help by <a href="https://signal.group/#CjQKIH9MlEvfVEzLSGxLQF60aZLNU7zcXhkzWLMOzrQB3klJEhC4_W9_WAhBHIFFobF5MDZx">joining our planning group</a> on the Signal platform.
               </p>
 
         <button type="button" className="ghostBtn" onClick={close} style={{ marginTop: 20, padding: "10px 24px", borderRadius: 999, fontSize: 16 }}>
