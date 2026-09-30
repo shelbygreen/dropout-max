@@ -54,18 +54,15 @@ export default function AnnouncementModal() {
         </button>
 
         <h2 style={{ margin: "0 0 12px", fontSize: "clamp(22px,5vw,28px)", color: "#c0326b", fontWeight: 400 }}>
-          09/30/26 Campaign Update: Upcoming Community Talk
+          Upcoming October Community Talk on Consent and Safety
         </h2>
 
         <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
-          We are planning a community talk about consent and accountability in late October. Help us plan and/or secure partnerships!
-          <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
-            We're in conversation with the Commissioner Porter's office, sexual health experts, local girls and women groups, and the Florida Council Against Women Violence. FCAW offers resources, including free legal services!! Call them at (850) 363-1666.
-            </p>
+          Want to vend or table? Email: tlhresident.com. Help by joining the planning group on Signal. Instructions: https://www.dropoutmax.com/help
               </p>
 
         <button type="button" className="ghostBtn" onClick={close} style={{ marginTop: 20, padding: "10px 24px", borderRadius: 999, fontSize: 16 }}>
-          RSVP at dropoutmax.com
+          ❤️
         </button>
       </div>
     </div>
