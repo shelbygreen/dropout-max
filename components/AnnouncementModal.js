@@ -62,6 +62,7 @@ export default function AnnouncementModal() {
           <p style={{ margin: 0, fontSize: "clamp(16px,4vw,18px)", lineHeight: 1.5, color: "#2b2820" }}>
             We're in conversation with the Commissioner Porter's office, sexual health experts, local girls and women groups, and the Florida Council Against Women Violence. FCAW offers resources, including free legal services!! Call them at (850) 363-1666.
             </p>
+              </p>
 
         <button type="button" className="ghostBtn" onClick={close} style={{ marginTop: 20, padding: "10px 24px", borderRadius: 999, fontSize: 16 }}>
           RSVP at dropoutmax.com
