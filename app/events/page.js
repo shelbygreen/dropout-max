@@ -11,6 +11,17 @@ export default function InfoPage() {
       <h1 style={heading}>
         Drop out, Max<span style={{ fontStyle: "italic" }}>.</span>
       </h1>
+
+      <iframe
+      className="airtable-embed"
+      src="https://airtable.com/embed/appFNGBOaCDOESiWA/paggpeKnK3AO8NnwM/form"
+      title="RSVP for Community Forum"
+      width="100%"
+      height={533}
+      loading="lazy"
+      style={{ background: "transparent", border: "1px solid #ccc"}}
+    />
+
     </section>
   );
 }
